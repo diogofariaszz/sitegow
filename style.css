@@ -83,3 +83,17 @@ body{
       width: 50%;
     }
   }
+  @media screen and (max-width: 600px) {
+    .navb {
+        flex-direction: column;
+    }
+    .nav-links {
+        margin-top: 10px;
+    }
+    .nav-links li {
+        margin: 5px 0;
+    }
+    .lg {
+        width: 100px; 
+    }
+}
